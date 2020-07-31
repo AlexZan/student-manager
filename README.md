@@ -5,6 +5,18 @@
 npm install
 ```
 
+Install [json server](https://www.npmjs.com/package/json-server) to be able to run the local API
+
+```
+npm i -g json-server
+```
+
+Run:
+
+```
+json-server --watch db.json
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
